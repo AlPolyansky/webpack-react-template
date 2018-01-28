@@ -12,4 +12,6 @@ render(
     document.getElementById('app')
 );
 
+
+// Позволяет обновлять react компоненты без потери данных
 module.hot.accept();

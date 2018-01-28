@@ -27,5 +27,10 @@ module.exports = {
         hot: true,
         inline: true,
         contentBase: path.join(__dirname, "public"),
-    }
+        clientLogLevel: "none"
+    },
+
+    plugins: [
+        new webpack.HotModuleReplacementPlugin()
+    ]
 };
