@@ -4,7 +4,7 @@ export default class Test extends Component {
     render(){
         return (
             <div>
-                Test
+                Testsdsd
                 <input type="text" />
             </div>
         )

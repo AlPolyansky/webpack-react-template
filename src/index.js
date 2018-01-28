@@ -1,14 +1,9 @@
 import React from 'react';
 import {render} from 'react-dom';
-import Test from './test';
-import Test2 from './test2';
+import App from './js/App';
 
 render(
-    <div>
-        Hello world
-        <Test />
-        <Test2 />
-    </div>,
+    <App />,
     document.getElementById('app')
 );
 
